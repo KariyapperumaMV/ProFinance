@@ -9,12 +9,14 @@ ProFinance is a simple yet powerful Android application designed to help users e
   <li><b>Export Transactions: </b>Export all recorded transactions to a text file for backup or reporting purposes, which is saved in the device's Downloads folder.</li>
 </ul>
 <bl/>
+  
 ### 02.	Financial Summary</bl>
 <ul>
   <li><b>Pie Chart Visualization: </b>Visualize all income and expense data using colorful pie charts powered by MPAndroidChart, making it easier to analyze financial distribution.</li>
   <li><b>Category Based Summaries: </b>For each category, the app displays the total amount, number of transactions, monthly budget (if available), and a status indicating whether the spending is under or over the set budget limit.</li>
 </ul>
 <bl/>
+  
 ### 03.	Monthly Budgeting<bl/>
   <ul>
   <li><b>Set Budget Limits: </b>Users can define a maximum spending limit for each transaction category, specifically for the current month of the current year.</li>
