@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">LabExam03</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="welcome">Welcome</string>
+    <string name="monthly_budgeting">Monthly Budgeting</string>
+    <string name="summary">Summary</string>
+    <string name="transaction">Transaction</string>
+    <string name="usd">USD</string>
+    <string name="select_currency_type">Select Currency Type</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="add_new">Add New</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="month">Month</string>
+    <string name="set_limit">Set Limit</string>
+    <string name="add_new_transaction">Add New Transaction</string>
+    <string name="title">Title</string>
+    <string name="select_date">Select Date</string>
+    <string name="submit">Submit</string>
+    <string name="select_transaction_type">Select Transaction Type</string>
+    <string name="amount_date">Amount • Date</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="details_here">Details here</string>
+    <string name="edit_transaction">Edit Transaction</string>
+    <string name="update">Update</string>
+    <string name="existing_budgets">Existing Budgets</string>
+    <string name="category_month_amount">Category - Month: Amount</string>
+    <string name="expenses_summary">Expenses Summary</string>
+    <string name="income_summary">Income Summary</string>
+    <string name="detailed_summary">Detailed Summary</string>
+    <string name="total_0_0">Total: 0.0</string>
+    <string name="transactions_0">Transactions: 0</string>
+    <string name="budgeted_n_a">Budgeted: N/A</string>
+    <string name="status">Status</string>
+    <string name="export_transactions">Export Transactions</string>
+    <string name="profinance">ProFinance</string>
+    <string name="background_image">Background Image</string>
+    <string name="backgroud_image">Backgroud Image</string>
+</resources>

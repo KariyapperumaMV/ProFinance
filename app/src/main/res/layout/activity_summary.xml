@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_image">
+
+    <!-- Expenses Summary Title -->
+    <TextView
+        android:text="@string/expenses_summary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Expenses Pie Chart -->
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChartExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <!-- Income Summary Title -->
+    <TextView
+        android:text="@string/income_summary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Income Pie Chart -->
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChartIncome"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/white"/>
+
+    <!-- Detailed Summary Title -->
+    <TextView
+        android:text="@string/detailed_summary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- List View takes remaining space and is scrollable -->
+    <ListView
+        android:id="@+id/listViewSummary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+</LinearLayout>

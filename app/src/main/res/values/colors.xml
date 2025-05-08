@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="heading_txt">#8400C4</color>
+    <color name="transaction_red">#FE8484</color>
+    <color name="transaction_blue">#ADD8E6</color>
+    <color name="violet_pie">#8F00FF</color>
+    <color name="hopbush">#D05FAD</color>
+    <color name="fandango">#B53389</color>
+    <color name="good_tux">#C9A0FF</color>
+</resources>

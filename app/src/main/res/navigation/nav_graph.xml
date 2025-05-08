@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/WelcomeActivity">
+
+    <activity
+        android:id="@+id/WelcomeActivity"
+        android:name="com.example.labexam03.WelcomeActivity"
+        android:label="WelcomeActivity Label"
+        tools:layout="@layout/activity_welcome">
+
+        <action
+            android:id="@+id/action_WelcomeActivity_to_HomeActivity"
+            app:destination="@id/HomeActivity" />
+    </activity>
+    <activity
+        android:id="@+id/HomeActivity"
+        android:name="com.example.labexam03.HomeActivity"
+        android:label="HomeActivity Label"
+        tools:layout="@layout/activity_home">
+    </activity>
+</navigation>
